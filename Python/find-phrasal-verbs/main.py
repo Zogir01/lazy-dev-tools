@@ -55,7 +55,7 @@ def main():
     # json serialization
     json_object = json.dumps(obj = matches, indent = 4)
 
-    # save json object as file
+    # save json object to file
     with open("result.json", "w") as outfile:
         outfile.write(json_object)
 
