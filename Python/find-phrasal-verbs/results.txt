@@ -1,0 +1,18 @@
+path: .\2018-czerwiec-matura-podstawowa.pdf, pages: 16, version: 14
+------------------------------------
+ask for: 1
+be in: 1
+calm down: 1
+find out: 1
+get on: 1
+get to: 1
+give up: 1
+laugh at: 1
+pay for: 1
+run to: 1
+speak to: 1
+stick to: 1
+take it: 1
+walk into: 1
+
+------------------------------------
