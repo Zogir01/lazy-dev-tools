@@ -17,20 +17,22 @@ def main():
     for i in range(1, arg_cnt):
         arg = sys.argv[i]
 
-        if len(sys.argv < 2):
-            print("Provide at least one PDF file as an argument.")
+        if len(sys.argv) < 2:
+            print("\nProvide at least one PDF file as an argument.")
             return
 
         # split text into filename (index = 0) , filetype (index = 1) 
         # and check is filetype correct
-        if os.path.isfile() and os.path.splitext(arg)[1] != '.pdf':
-            print(f'Invalid argument: {arg}')
-        else:
+        if os.path.isfile(arg) and os.path.splitext(arg)[1] == '.pdf':
             pdf_paths.append(arg)
+        else:
+            print(f'\nInvalid argument: {arg}')
 
     if not pdf_paths:
-        print(f'No valid PDF files found.')
+        print(f'\nNo valid PDF files found.')
         return
+    
+    print(f"\nProcessing following pdf files: {pdf_paths}")
     
     # open http connetion to remote file with phrasal verbs
     response = urllib.request.urlopen(PHRASAL_VERBS_URL)
@@ -61,6 +63,8 @@ def main():
     # save json object to file
     with open(RESULT_FILE, "w") as outfile:
         outfile.write(json_object)
+
+    print(f"\nSuccesfull. Result is saved into {RESULT_FILE}")
 
 if __name__ == '__main__':
     main()
