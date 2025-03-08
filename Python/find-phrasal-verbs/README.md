@@ -13,4 +13,4 @@ Run this script with additional arguments, which are the next pdf files to be pr
 python main.py example1.pdf example2.pdf
 ```
 
-When the script finishes executing, you will notice that a text file with solution will be created.
+When the script finishes executing, you will notice that a json file with solution will be created.
