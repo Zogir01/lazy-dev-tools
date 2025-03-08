@@ -9,7 +9,8 @@ In this script, I used a list of phrasal verbs from [this repository](https://gi
 
 ## Usage
 Run this script with additional arguments, which are the next pdf files to be processed, as here:
-
-*python main.py example1.pdf example2.pdf*
+```
+python main.py example1.pdf example2.pdf
+```
 
 When the script finishes executing, you will notice that a text file with solution will be created.
