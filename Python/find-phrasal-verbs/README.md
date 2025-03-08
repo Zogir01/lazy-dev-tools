@@ -1,6 +1,6 @@
 # find-phrasal-verbs
 A script for finding phrasal verbs in pdf files. 
-I'm going to use this tool to generate a list of the most popular verbs appearing on Polish final high school exam called "matura".
+I'm going to use this tool to generate a list of the most popular verbs appearing on Polish final high school exam called "Matura".
 
 In this script, I used a list of phrasal verbs from [this repository](https://github.com/WithEnglishWeCan/generated-english-phrasal-verbs). Many thanks to the authors for providing this valuable resource!
 
