@@ -1,3 +1,10 @@
+#
+# TODO
+# - zrobić zliczanie wszystkich wyrazów, fraz, irregular-verbs 
+# (skorzystać z zasobów With English we Can).
+# - zrobić podział na małe funkcję i lepszą obsługę błędów
+# - przetestować działanie skryptu
+
 import pypdfium2 as pdfium
 import urllib.request
 import json
