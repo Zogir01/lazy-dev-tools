@@ -20,13 +20,13 @@ def main():
     matches = defaultdict(int)
     arg_cnt = len(sys.argv)
 
+    if arg_cnt < 2:
+        print("\nProvide at least one PDF file as an argument.")
+        return
+
     # process arguments
     for i in range(1, arg_cnt):
         arg = sys.argv[i]
-
-        if len(sys.argv) < 2:
-            print("\nProvide at least one PDF file as an argument.")
-            return
 
         # split text into filename (index = 0) , filetype (index = 1) 
         # and check is filetype correct
