@@ -1,7 +1,8 @@
 #
 # TODO
 # 1. zrobić podział na małe funkcję i lepszą obsługę błędów
-# 2. zrobić zliczanie wszystkich wyrazów, fraz, irregular-verbs 
+# 2. oprócz znajdowania phrasal-verbs zrobić zliczanie 
+# wszystkich wyrazów, fraz, irregular-verbs 
 # (skorzystać z zasobów With English we Can).
 # 3. przetestować działanie skryptu
 
